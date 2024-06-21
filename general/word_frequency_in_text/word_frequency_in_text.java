@@ -6,8 +6,10 @@ public class Main {
     public static void main(String[] args) { 
         TreeMap<String, Integer> wordCount = new TreeMap<>();
         Scanner sc = new Scanner(System.in);
+
         String line;
         int cel = 0;
+
         while(sc.hasNextLine()){
             line = sc.nextLine();
             if (line.isEmpty()){
@@ -25,6 +27,7 @@ public class Main {
                 }
             }
         }
+        
         for (String w : wordCount.keySet()){
             int curr = wordCount.get(w);
             System.out.println(w + " " + curr);

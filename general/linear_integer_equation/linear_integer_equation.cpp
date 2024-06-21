@@ -1,6 +1,7 @@
 //C++ 
 #include<bits/stdc++.h>
 using namespace std;
+
 void gc(int n, int M, vector<int> cc){
     if (n == 0){
         if (M == 0){
@@ -19,6 +20,7 @@ void gc(int n, int M, vector<int> cc){
         }
     }
 }
+
 int main(){
     int n, M;
     cin >> n >> M;

@@ -1,9 +1,15 @@
 //CPP 
 #include<bits/stdc++.h>
 using namespace std;
+
 int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    
     set<string> db;
     vector<int> rs;
+
     while(1){
         string db_element;
         cin >> db_element;
@@ -13,6 +19,7 @@ int main(){
             db.insert(db_element);
         }
     }
+
     while(1){
         string cmd;
         cin >> cmd;
@@ -37,8 +44,10 @@ int main(){
             }
         }
     }
+
     for (int i:rs){
         cout << i << endl;
     }
+
     return 0;
 }

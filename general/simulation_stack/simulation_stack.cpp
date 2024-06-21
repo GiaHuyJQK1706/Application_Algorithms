@@ -5,6 +5,7 @@ int main(){
 	stack<int> s;
 	int rs[10000];
 	int k = 0;
+
 	while(1){
         string cmd;
         cin >> cmd;
@@ -23,6 +24,7 @@ int main(){
             break;
         }
 	}
+
 	for (int i=0;i<k;i++){
         if (rs[i] != 0){
             cout << rs[i] << endl;
@@ -30,6 +32,7 @@ int main(){
             cout << "NULL" << endl;
         }
 	}
+    
 	return 0;
 }
 
