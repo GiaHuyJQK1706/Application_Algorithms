@@ -1,6 +1,6 @@
 /*
-Solved by Gia-Huy Do
-Y tuong: Using dp, bitmask
+ * Solved by Gia-Huy Do
+ * Y tuong: Using dp, bitmask
 */
 #include<bits/stdc++.h>
 using namespace std;
