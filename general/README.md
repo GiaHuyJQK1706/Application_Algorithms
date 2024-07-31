@@ -9,5 +9,5 @@ Thư mục general là các bài thuật toán luyện tập trong giờ lý thu
   - Các file `*.c`, `*.cpp`, `*.py` là file lời giải của bài đó lần lượt bằng ngôn ngữ **C**, **C++**, **Python**
   - Riêng file lời giải của bài đó bằng ngôn ngữ **Java** sẽ là `Main.java`
 ### Lưu ý
-- Các file lời giải đó chưa chắc đã fulltest 100%, nếu có gì thiếu sót thì liên lạc với mình nhé.
-- Thư mục này chỉ dùng để tham khảo
+- Nếu có gì thiếu sót thì liên lạc với mình qua facebook [https://web.facebook.com/giahuy.do617](https://web.facebook.com/giahuy.do617) hoặc email [huydogiaccac@gmail.com](https://mail.google.com) nhé.
+- Thư mục này chỉ dùng để tham khảo, không khuyến khích cho việc gian lận hay các hành động bất chính khác. Nếu có gì phát sinh, mình không chịu trách nhiệm.
