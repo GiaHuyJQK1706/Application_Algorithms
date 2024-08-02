@@ -3,7 +3,7 @@ Range Minimum Query
 * Solved by Gia-Huy Do
 * Y tuong: tao cau truc du lieu Segment Tree (do phuc tap O(n))
   Moi truy van co do phuc tap O(logn)
-=> Time Complexity: O(n + mlogn)
+=> Time Complexity: O(n + mlogn) ~ O(max(m,n))
 */
 #include <iostream>
 #include <vector>
