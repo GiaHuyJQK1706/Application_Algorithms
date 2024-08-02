@@ -1,3 +1,7 @@
+/*
+ * Solved by Gia-Huy Do
+ * Using queue<Struct>, with Struct: a, b, steps
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
