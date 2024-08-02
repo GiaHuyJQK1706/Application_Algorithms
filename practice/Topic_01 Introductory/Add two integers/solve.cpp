@@ -1,3 +1,7 @@
+/*
+ * Solved by Gia-Huy Do, Le Quang Chiến
+ * Y tuong: cong lan luot nhu lam tinh cong o tieu hoc
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
