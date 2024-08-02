@@ -1,3 +1,6 @@
+/*
+ * Solved by Gia-Huy Do, Hoang Minh Ngoc
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
