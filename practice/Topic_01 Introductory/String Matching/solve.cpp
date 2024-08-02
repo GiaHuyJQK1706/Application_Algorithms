@@ -1,4 +1,4 @@
-//C++ 
+//C++, solved by Gia-Huy Do
 #include <iostream>
 #include <string>
 using namespace std;
