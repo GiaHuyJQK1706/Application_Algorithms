@@ -3,7 +3,8 @@
 ### Mô tả
 Thư mục general là các bài thuật toán luyện tập trong giờ lý thuyết, được mình tổng hợp lại theo từng tuần
 ### Cách tham khảo trong thư mục practice_it3170
-- Các thư mục con trong thư mục **practice_it3170** có định dạng là `*` (Với `*` là tên bài tập)
+- Trong thư mục **practice_it3170** có các thư mục con có định dạng là `Topic_xx #` (Với `xx` là số thứ tự của chủ đề được sắp xếp theo thứ tự từ học trước đến học sau, `#` là tên của chủ đề đó)
+- Các thư mục con trong thư mục **Topic_xx #** có định dạng là `*` (Với `*` là tên bài tập, **Note:** Nếu muốn đạt full 100% testcase của các bài tập `*` đó cần sử dụng các kiến thức trong chủ đề `#` hoặc kết hợp thêm cả kiến thức khác của các chủ đề học trước đó)
 - Trong mỗi thư mục `*` có:
   - File `README.md` là file chứa đề bài và testcase mẫu của bài tập đó
   - Các file `solve.c`, `solve.cpp`, `solve.py` là file lời giải của bài đó lần lượt bằng ngôn ngữ **C**, **C++**, **Python**
