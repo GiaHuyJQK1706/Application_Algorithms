@@ -1,4 +1,4 @@
-//C++ 
+//C++, solved by Gia-Huy Do 
 #include <stdio.h>
 #include <string.h>
 char s[1000001];
