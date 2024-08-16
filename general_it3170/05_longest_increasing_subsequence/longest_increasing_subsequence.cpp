@@ -36,7 +36,7 @@ int main() {
     vector<int> sequence(n);
 
     for (int i = 0; i < n; ++i) {
-        std::cin >> sequence[i];
+        cin >> sequence[i];
     }
 
     int longestIncreasingSubsequenceLength = findLongestIncreasingSubsequence(sequence);
