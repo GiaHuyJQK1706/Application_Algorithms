@@ -5,14 +5,10 @@ Range Minimum Query
   Moi truy van co do phuc tap O(logn)
 => Time Complexity: O(n + mlogn) ~ O(max(m,n))
 */
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <limits.h>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-// Function to build the segment tree
+// Hàm tạo Segment Tree
 void buildTree(vector<int>& segTree, const vector<int>& arr, int start, int end, int node) {
     if (start == end) {
         segTree[node] = arr[start];
@@ -24,7 +20,7 @@ void buildTree(vector<int>& segTree, const vector<int>& arr, int start, int end,
     }
 }
 
-// Function to query the segment tree
+// Hàm truy vấn Segment Tree 
 int queryTree(const vector<int>& segTree, int start, int end, int l, int r, int node) {
     if (r < start || end < l) {
         return INT_MAX;
