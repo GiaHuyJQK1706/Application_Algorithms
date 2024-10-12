@@ -46,7 +46,7 @@ int main() {
     int n;
     cin >> n;
     vector<int> arr(n);
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
@@ -57,7 +57,7 @@ int main() {
     int m;
     cin >> m;
     long long Q = 0;
-    for (int k = 0; k < m; ++k) {
+    for (int k = 0; k < m; k++) {
         int i, j;
         cin >> i >> j;
         Q += queryTree(segTree, 0, n - 1, i, j, 0);
