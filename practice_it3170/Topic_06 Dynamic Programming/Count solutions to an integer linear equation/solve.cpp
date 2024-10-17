@@ -13,12 +13,10 @@
     Sau khi xet het xong, dp[M'] la ket qua can tim
 * Do phuc tap O(n*(M-a_1-...-a_n)) ~ O(n*M)
 */
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-int countSolutions(int n, int M, vector<int>& a) {
+int countSol(int n, int M, vector<int>& a) {
     vector<int> dp(M + 1, 0);
     dp[0] = 1;
     int tong = 0;
@@ -30,7 +28,6 @@ int countSolutions(int n, int M, vector<int>& a) {
             dp[j] += dp[j - a[i]];
         }
     }
-
     return dp[M-tong];
 }
 
@@ -43,6 +40,6 @@ int main() {
         cin >> a[i];
     }
 
-    cout << countSolutions(n, M, a) << endl;
+    cout << countSol(n, M, a) << endl;
     return 0;
 }
